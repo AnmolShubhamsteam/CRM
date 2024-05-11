@@ -1,0 +1,9 @@
+{% extends 'main.html' %}
+
+{% block content %}
+{% if user.is_authenticated %}
+<div>
+    Home page
+</div>
+{% endif %}
+{% endblock %}
