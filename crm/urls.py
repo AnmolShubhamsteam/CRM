@@ -4,8 +4,8 @@ from core.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("",home,name="home"),
-    path("login/",log_in,name="login"),
+    path("home/",home,name="home"),
+    path("",log_in,name="login"),
     path("logout/",log_out,name="logout"),
     path("register/",Register_user,name="register"),
     path("addinfo/",Addinfo,name="addinfo"),
